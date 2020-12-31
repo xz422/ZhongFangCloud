@@ -1,0 +1,383 @@
+ @media screen and (min-width: 1024px){
+        html{
+	    font-size:71.11px;  /*100倍   1024/1440*100  */
+	
+       }
+
+    } /*>=1024的设备*/
+
+    @media screen and (min-width: 1100px) {
+ 
+        html{
+	    font-size:785.71px;
+	
+       }
+
+    } /*>=1100的设备*/
+    @media screen and (min-width: 1280px) {
+       html{
+	    font-size:88.88px;
+	
+       }
+          
+    } /*>=1280的设备*/
+
+    @media screen and (min-width: 1366px) {
+
+        html{
+	    font-size:94.86px;
+	
+       }
+
+    }  
+
+    @media screen and (min-width: 1440px) {
+
+      html{
+	    font-size:100px;
+	
+       }
+
+    } 
+
+    @media screen and (min-width: 1680px) {
+
+      html,body{
+	    font-size:116.66px;
+	
+       }
+    } 
+    @media screen and (min-width: 1920px) {
+      html,body{
+	    font-size:133.33px;
+	   
+       }
+    } 
+
+:root body {
+  position: absolute;
+}
+*{
+	 outline:none;
+}
+
+html,body{
+	width: 100%;
+	/*background: #FFFFFF;*/
+	padding: 0;
+	margin: 0;
+	color: #313836;
+}
+img{
+    /*width: 100%;  
+    height: 100%;  */
+    max-width: 100%;  
+    max-height: 100%; 
+}
+
+
+.div-between{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.div-start{
+		display: flex;
+	    justify-content: flex-start;
+    	align-items: center;
+}
+.div-column{
+	    display: flex;
+	   flex-direction: column;
+	   align-items: center;
+	   align-content: center;
+}
+.div-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.div-end{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.div-around{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header{
+	height: 0.8rem;
+	background-color: #2D93CA;
+	
+}
+
+
+/*img*/
+.small-img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.big-img{
+	width: 7.62rem;
+	height: 4.2766rem;
+}
+.medium-img{
+	width: 1.92rem;
+	height: 2.59rem;
+}
+.medium-big-img{
+	height: 2.72rem;
+	width: 5.2rem;
+}
+.medium-small-img{
+	height: 2.3rem;
+	width: 2.2rem;
+}
+
+
+
+/*内容样式*/
+
+/*头部*/
+.cloud-head{
+	width: 100%;
+	height: 0.8rem;
+	font-size: 0.14rem;
+	
+}
+.cloud-content{
+	width: 100%;
+}
+
+.cloud-foot{
+	width: 100%;
+	height: 4.08rem;
+	font-size: 0.14rem;
+}
+
+/*内容*/
+.vessel-one{
+	background: #F5F9FC;
+	position: relative;
+	height: 9.48rem;
+}
+.advertising{
+	width: 100%;
+	background-image: linear-gradient(#2E407C, #152C4E);
+	height: 3.6rem;
+	color: #FFFFFF;
+}
+.stair-title{
+	font-size: 0.48rem;
+	font-weight: bold;
+	margin-top: 0.56rem;
+}
+.second-introduce{
+	font-size: 0.24rem;
+}
+.buy-btn{
+	font-size: 0.18rem;
+	padding: 0.08rem 0.4rem;
+	border-radius: 0.2rem;
+	border:0rem;
+	color: #FFFFFF;
+	margin: 0.32rem 0rem 0rem 0rem;
+	background-image: linear-gradient(to right, #0D59FC, #7632E2,#F303C1);
+}
+/*网站搜索*/
+.website-search{
+	margin: 4.5rem 0rem 0rem 0rem;
+	height: 0.55rem;
+	width: 6.66rem;
+	background: #FFFFFF;
+	border-radius: 0.275rem;
+	font-weight: bold;
+}
+.website-search label{
+	font-size: 0.2rem;
+	margin: 0rem 0.04rem 0rem 0.64rem;
+}
+.search-input{
+	margin: 0.04rem 0rem 0rem 0rem;
+	border: 0rem;
+	font-size: 0.16rem;
+	width: 3rem;
+	font-weight: bold;
+}
+/*浮动*/
+.flot-advertising{
+	width: 7.62rem;
+	position: absolute;
+	top:2.66rem;
+	left: 4.18rem;
+	z-index: 100;
+	
+}
+.top-hurdle{
+	width: 100%;
+	height:0.5rem;
+	border-radius: 0.16rem 0.16rem 0rem 0rem;
+	background-image: linear-gradient(to right,#5190F0,#A68BFF);
+	
+}
+.circle-white{
+	background: #FFFFFF;
+	height: 0.13rem;
+	width: 0.13rem;
+	border-radius: 50%;
+	margin: 0rem 0.08rem 0rem 0rem;
+}
+.circle-one{
+	margin: 0rem 0.08rem 0rem 0.31rem;
+}
+.background-div{
+	position: absolute;
+	top:5.19rem;
+	left: 3.02rem;
+	z-index: 101;
+	width: 1.92rem;
+	height: 2.59rem;
+	background: #DEDEDE;
+}
+.flot-div-img{
+	position: absolute;
+	top:5.07rem;
+	left: 2.9rem;
+	z-index: 102;
+	width: 1.92rem;
+	height: 2.59rem;
+
+}
+.bid-price{
+	position: absolute;
+	left: 1.84rem;
+	top: 4.58rem;
+	z-index: 103;
+	width: 1.8rem;
+	height: 1.8rem;
+	border-radius: 50%;
+	background: #3B403E;
+	color: #FFFFFF;
+	font-size: 0.16rem;
+}
+.bid-price div span{
+	color: #FFA800;
+}
+
+
+.vessel-two{
+	padding: 0.97rem 0rem 0.72rem 0rem;
+}
+.broadside-details{
+	width: 4.8rem;
+	height: 2.72rem;
+	border-bottom: 0.01rem solid #E6E7E9;
+}
+.details-title{
+	font-size: 0.26rem;
+	width: 4.8rem;
+	margin: 0.4rem 0rem 0rem 0rem;
+}
+.details-title span{
+	font-weight: bold;
+}
+.details-content{
+	width: 3.39rem;
+	font-size: 0.14rem;
+	width: 4.8rem;
+	margin: 0.24rem 0rem 0.54rem 0rem;
+}
+.details-btn{
+	width: 4.8rem;
+	
+}
+.details-content span{
+	background: #5B88FF;
+	color: #5B88FF;
+/*	margin: 0rem 0.02rem 0rem 0rem;*/
+}
+.visit-btn{
+	background-image: linear-gradient(#5189FB,#9661E5);
+	border: 0rem;
+	font-size: 0.16rem;
+	color: white;
+	border-radius: 0.23rem;
+	padding: 0.12rem 0.64rem;
+	
+}
+.vessel-two-item{
+	margin-top: 0.8rem;
+}
+
+
+.vessel-three{
+	background: #F5F9FC;
+	font-size: 0.28rem;
+	padding: 0.49rem 0rem 0.64rem 0rem;
+}
+.wire-title{
+	background: #DB1B41;
+	height: 0.04rem;
+	width: 0.64rem;
+	margin-top: 0.16rem;
+}
+.data-card{
+	color: white;
+	height: 1.6rem;
+	width: 3rem;
+	background-image: linear-gradient( to right,#5189FB,#9661E5);
+	border-radius: 0.12rem;
+}
+.card-margin{
+	margin: 0rem 0.5rem;
+}
+.card-vessel{
+	margin: 0.32rem;
+}
+.card-number{
+	font-size: 0.32rem;
+	width: 3rem;
+	margin: 0.4rem 0rem 0rem 0.32rem;
+}
+.card-content{
+	font-size: 0.16rem;
+	width: 3rem;
+	margin: 0.16rem 0rem 0rem 0.32rem;
+}
+
+.vessel-four{
+	width: 100%;
+	background-image: linear-gradient(#27437D,#1F2065);
+	padding: 0.56rem 0rem 0.87rem 0rem;
+}
+.research-title{
+	color: white;
+	font-size: 0.28rem;
+	margin: 0rem 0rem 0.22rem 0rem;
+}
+.vessel-btn{
+	width: 5.5rem;
+}
+.research-btn{
+	color: white;
+	font-size: 0.2rem;
+	padding: 0.07rem  0.4rem ;
+	background-image: linear-gradient(to right,#0D59FC,#7632E2,#F303C1);
+	border-radius: 0.2rem 0.2rem 0.2rem 0rem;
+}
+.research-content{
+	font-size: 0.14rem;
+	color: white;
+	width: 5.5rem;
+	margin: 0.24rem 0rem 0.48rem 0rem;
+}
+.research-icon{
+	width: 5rem;
+}
+.research-vessel{
+	padding: 0.2rem 0rem;
+	width: 5.5rem;
+}
